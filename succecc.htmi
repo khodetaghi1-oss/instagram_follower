@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <title>عملیات موفق</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #833AB4 0%, #E1306C 50%, #FCAF45 100%); 
+            color: white; 
+            text-align: center; 
+            padding: 50px; 
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .success-box {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 500px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        
+        .checkmark {
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: #00ff88;
+        }
+        
+        .site-link {
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .site-link a {
+            color: #FCAF45;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .site-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .info {
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-box">
+        <div class="checkmark">✅</div>
+        <h1>عملیات موفقیت‌آمیز بود!</h1>
+        <p>فالوورهای شما در حال پردازش هستند</p>
+        <p>⏳ زمان تحویل: ۲۴ تا ۴۸ ساعت</p>
+        
+        <div class="site-link">
+            <p>🎯 از سایت اصلی ما دیدن کنید:</p>
+            <a href="http://127.0.0.1:5000" target="_blank">http://127.0.0.1:5000</a>
+        </div>
+        
+        <div class="info">
+            این صفحه به طور خودکار بسته خواهد شد...
+        </div>
+    </div>
+    
+    <script>
+        setTimeout(function(){ 
+            window.close(); 
+        }, 5000);
+    </script>
+</body>
+</html>
